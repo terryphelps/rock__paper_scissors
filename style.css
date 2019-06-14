@@ -1,0 +1,79 @@
+#player-1{
+  margin-left: 10px;
+  margin-right: 100px;
+  height: 5vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+#player-2{
+  margin-left: 100px;
+  margin-right: 10px;
+  height: 5vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+#re-play-yes{
+  border: none;
+  background-color: white;
+  height: 5vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+#re-play-no{
+  border: none;
+  background-color: white;
+  height: 5vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+#ask {
+  border: none;
+  background-color: white;
+  height: 5vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+.cont {
+  display: flexbox;
+}
+.t-row {
+  flex-direction: row;
+  height: 70vh;
+  width: 100vw;
+  margin-left: -15px;
+  padding: 0px;
+}
+.m-row {
+  height: 10vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.b-row h3 {
+  margin-top: 5vh;
+} 
+.b-row button {
+  margin-left: 3vw;
+  margin-right: 20-vw;
+}
+.b-row {
+  display: flex;
+  height: 30vh;
+  width: 100vw;
+  text-align: center;
+}
+.player1{
+  background-color: rgb(120, 150, 240);
+  height: 70vh;
+  width: 50vw;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.player2{
+  background-color: rgb(180, 60, 60);
+  height: 70vh;
+  width: 50vw;
+  text-align: center;
+  text-decoration-line: underline;
+}
